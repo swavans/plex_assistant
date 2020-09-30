@@ -285,26 +285,28 @@ LOCALIZE = {
             "post": [],
         },
     },
-    "nl": {
-        "play": "speel",
+"nl": {
+        "play": "afspelen",
         "movies": [
             "film"
         ],
         "shows": [
-            "aflevering"
+            "aflevering",
+			"serie",
+		    "tv show"
         ],
 
         "controls": {
-            "play": "speel",
+            "play": "afspelen",
             "pause": "pauzeer",
             "stop": "stop",
-            "jump_forward": "spring naar voren",
-            "jump_back": "spring naar achter",
-            "update_sensor": "update sensor",
+            "jump_forward": "doorspoelen",
+            "jump_back": "terugspoelen",
+            "update_sensor": "sensor bijwerken",
         },
 
         "not_found": "niet gevonden",
-        "cast_device": "cast toestel",
+        "cast_device": "cast apparaat",
         "no_call": "Er is geen opdracht ontvangen.",
 
         "play_start": [
@@ -312,7 +314,8 @@ LOCALIZE = {
             "speel film",
             "speel de aflevering",
             "speel aflevering",
-            "play the show",
+            "speel de serie",
+			"speel de tv show",
             "speel de",
             "speel",
         ],
@@ -330,6 +333,7 @@ LOCALIZE = {
             "tiende": "10",
             "pre": [
                 "de",
+				"het"
             ],
             "post": [],
         },
@@ -350,6 +354,8 @@ LOCALIZE = {
         "episode": {
             "keywords": [
                 "aflevering",
+				"afleveringen",
+				"episode"
             ],
             "pre": [
                 'ste',
@@ -371,6 +377,10 @@ LOCALIZE = {
             ],
             "post": [
                 "aflevering",
+				"film",
+				"show",
+				"afleveringen",
+				"tv show",
                 "van",
             ],
         },
@@ -387,7 +397,6 @@ LOCALIZE = {
         },
         "ondeck": {
             "keywords": [
-                "aan dek",
                 "voorpagina",
                 "hoofdpagina",
                 "beginpagina",
